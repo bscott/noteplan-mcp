@@ -2,6 +2,10 @@
 
 A Message Control Protocol (MCP) server that enables Claude Desktop to interact with NotePlan.co. This server provides seamless integration between Claude and your NotePlan notes, allowing you to query, search, create, and update notes directly from Claude conversations.
 
+<a href="https://glama.ai/mcp/servers/@bscott/noteplan-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@bscott/noteplan-mcp/badge" alt="NotePlan Server MCP server" />
+</a>
+
 ## Features
 
 - **Read Notes**: Get all notes, specific notes by ID, or notes from specific folders
@@ -53,8 +57,8 @@ To use this MCP server with Claude Desktop, add the following configuration to y
 
 ### Step 1: Locate Your Config File
 
-**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`  
+**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`  
 **Linux**: `~/.config/Claude/claude_desktop_config.json`
 
 ### Step 2: Add NotePlan MCP Server
